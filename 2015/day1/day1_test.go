@@ -42,7 +42,7 @@ func TestPart1_FromFile(t *testing.T) {
 		in   string
 		want int
 	}{
-		{"testdata/input.txt", 232},
+		{"testdata/input1.txt", 232},
 		{"testdata/input2.txt", 74},
 	}
 
@@ -79,7 +79,7 @@ func TestPart2_FromFile(t *testing.T) {
 		in   string
 		want int
 	}{
-		{"testdata/input.txt", 1783},
+		{"testdata/input1.txt", 1783},
 		{"testdata/input2.txt", 1795},
 	}
 

@@ -6,6 +6,7 @@ import (
 )
 
 func readFile(t *testing.T, name string) string {
+	t.Helper()
 	data, err := os.ReadFile(name)
 	if err != nil {
 		t.Fatal(err)
